@@ -29,12 +29,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://jenkins.adnear.net:8081/repository/test-release/</url>
+            <url>http://nexus.adnear.net:8081/repository/test-release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://jenkins.adnear.net:8081/repository/test-snap/</url>
+            <url>http://nexus.adnear.net:8081/repository/test-snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
